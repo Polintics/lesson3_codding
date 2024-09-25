@@ -3,7 +3,15 @@ nav{
     border: 1px solid rgb(71, 86, 121);  /* border - обводка */
     width: 300px;
     position: fixed; /* позиция привязана к точке на экране */
-    margin-top: 45px;
-    margin-left: 10px
-    ;
+    top: 45px;
+    margin-left: 10px    ;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: .3; 
+    transition: all 0.5s ease;
+}
+
+nav:hover{
+    opacity: 1;
+    transition: all 0.1s ease;
 }
