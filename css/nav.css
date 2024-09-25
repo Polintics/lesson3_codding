@@ -1,0 +1,9 @@
+nav{
+    background: #eee; /*  background - цвет фона */
+    border: 1px solid rgb(71, 86, 121);  /* border - обводка */
+    width: 300px;
+    position: fixed; /* позиция привязана к точке на экране */
+    margin-top: 45px;
+    margin-left: 10px
+    ;
+}
